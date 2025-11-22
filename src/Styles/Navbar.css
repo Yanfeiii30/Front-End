@@ -116,7 +116,7 @@
 }
 
 /* =========================================
-   MOBILE FULL SCREEN MENU FIXES
+   MOBILE FULL SCREEN MENU FIXES (FIXED)
    ========================================= */
 @media (max-width: 991px) {
   /* 1. The Menu Container */
@@ -160,7 +160,7 @@
   }
 
   .nav-links-custom .nav-link {
-    font-size: 2.5rem; 
+    font-size: 1.5rem; /* Smaller font size */
     font-weight: 800; 
     margin: 0.5rem 0;
     color: #2e7d32 !important;
@@ -174,7 +174,7 @@
   .search-bar-custom {
     width: 80%;
     max-width: 320px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem; /* Reduced margin */
     /* Force Center */
     margin-left: auto;
     margin-right: auto;
@@ -182,10 +182,10 @@
   }
 
   .search-bar-custom .form-control {
-    height: 50px;
+    height: 40px; /* Reduced height */
     text-align: center;
-    font-size: 1.1rem;
-    border-radius: 25px;
+    font-size: 1rem; /* Reduced font size */
+    border-radius: 20px; /* Reduced border radius */
     border: 1px solid #81c784;
     background-color: white;
   }
@@ -195,16 +195,16 @@
     flex-direction: column;
     align-items: center; /* Force Center */
     width: 100%;
-    gap: 1.5rem;
+    gap: 1rem; /* Reduced gap */
     margin-top: 10px;
   }
 
   /* Buttons */
   .login-button-custom, 
   .navbar-nav .nav-link.logout-button {
-    width: 200px !important;
-    height: 50px !important;
-    font-size: 1.3rem !important;
+    width: 160px !important; /* Smaller width */
+    height: 40px !important; /* Smaller height */
+    font-size: 1rem !important; /* Smaller font size */
     font-weight: 600;
     display: flex !important;
     justify-content: center;
@@ -245,7 +245,7 @@
   }
   
   .navbar .bi-cart {
-    font-size: 3.5rem; 
+    font-size: 2rem; /* Reduced icon size */
     color: #2e7d32;
     margin: 0; /* Reset desktop margin */
     line-height: 1;
@@ -261,16 +261,16 @@
     justify-content: center;
     align-items: center;
     
-    min-width: 24px;
-    height: 24px;
+    min-width: 20px; /* Reduced size */
+    height: 20px; /* Reduced size */
     padding: 0; 
     
-    font-size: 0.85rem;
+    font-size: 0.75rem; /* Reduced font size */
     font-weight: bold;
     background-color: #dc3545;
     color: white;
     border-radius: 50%;
-    border: 2px solid #e8f5e9;
+    border: 1px solid #e8f5e9; /* Reduced border thickness */
   }
 
   /* Toggle Button */
